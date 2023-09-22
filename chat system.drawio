@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T17:08:47.386Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XNKLIxbZdDv4Pd3hiJJW" version="21.7.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-09-22T17:12:41.813Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="V1zQnVACXJXEYCOtDKmf" version="21.7.5" type="github" pages="2">
   <diagram name="Module Chat Bot" id="HkeKC2RD16-9pxQuGfAg">
-    <mxGraphModel dx="2083" dy="1530" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3550" dy="2295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -365,7 +365,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Dd4p8drfduPZIfHWknF7-41" value="Chat Service" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="5142" y="2490" width="210" height="90" as="geometry" />
+          <mxGeometry x="5142" y="2510" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Dd4p8drfduPZIfHWknF7-42" value="&lt;div style=&quot;text-align: left;&quot;&gt;- Consume data from topic chat&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Routing data to correct channel&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Dd4p8drfduPZIfHWknF7-41">
           <mxGeometry x="5" y="34" width="200" height="40" as="geometry" />
@@ -377,10 +377,10 @@
           <mxGeometry x="9" y="25" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Dd4p8drfduPZIfHWknF7-46" value="FL Service" style="swimlane;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="5072" y="2360" width="280" height="100" as="geometry" />
+          <mxGeometry x="4991" y="2360" width="361" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Dd4p8drfduPZIfHWknF7-47" value="&lt;div style=&quot;text-align: left;&quot;&gt;- Consume data from topic FL&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- process to get correct answer&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;base on story&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- return fallback if not valid&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- publish answer to topic chat&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Dd4p8drfduPZIfHWknF7-46">
-          <mxGeometry x="9" y="25" width="260" height="70" as="geometry" />
+        <mxCell id="Dd4p8drfduPZIfHWknF7-47" value="&lt;div style=&quot;text-align: left;&quot;&gt;- Consume data from topic FL&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- process to get correct answer&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;base on story&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Process some external data and convert to internal format&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- return fallback if not valid&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- publish answer to topic chat&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Dd4p8drfduPZIfHWknF7-46">
+          <mxGeometry x="10.5" y="22" width="340" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1z2gZ-EJ0proWmu13MOl-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/practicaldev/image/fetch/s--3ix0rFmo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dmmxiwgyuzodl7yqyuca.jpeg;" vertex="1" parent="1">
           <mxGeometry x="3679.0299999999997" y="6190" width="333.33" height="140" as="geometry" />
